@@ -14,6 +14,8 @@ CREATE TABLE IF NOT EXISTS public.employees (
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc', now()) NOT NULL
 );
 
+-- ここまで実行済み
+
 -- Enable Row Level Security
 ALTER TABLE public.employees ENABLE ROW LEVEL SECURITY;
 
